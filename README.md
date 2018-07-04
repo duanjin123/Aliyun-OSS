@@ -22,7 +22,7 @@ composer update
 ```$xslt
 composer require "lincoo/aliyun_oss"
 ```
-3、修改config/app.php，在providers数组下加入:
+2、修改config/app.php，在providers数组下加入:
 ```$xslt
 Lincoo\AliyunOSS\AliyunOssServiceProvider::class,
 ```
@@ -30,12 +30,12 @@ Lincoo\AliyunOSS\AliyunOssServiceProvider::class,
 ```$xslt
 'Client' => Lincoo\AliyunOSS\Client::class
 ```
-4、发布包配置文件
+3、发布包配置文件
 ```$xslt
 php artisan vendor:publish
 ```
 （记得在.env中加入相关配置）
-5、重新加载composer包
+4、重新加载composer包
 ```$xslt
 composer dumpautoload
 ```
