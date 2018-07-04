@@ -9,17 +9,17 @@
     "authors": [
         {
             "name": "Lincoo",
-            "email": "duan.jin@mydreamplus.com"
+            "email": "240333175@qq.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Lincoo\\aliyun_oss\\": "src/"
+            "Lincoo\\AliyunOSS\\": "src/"
         }
     },
     "autoload-dev": {
          "psr-4": {
-            "Lincoo\\aliyun_oss\\Tests\\": "tests/"
+            "Lincoo\\AliyunOSS\\Tests\\": "tests/"
          }
     },
     "minimum-stability": "dev"
