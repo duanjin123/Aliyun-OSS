@@ -10,7 +10,7 @@
 ```$xslt
 {
     "require": {
-        "lincoo/Aliyun-OSS": "dev-master"
+        "lincoo/aliyun_oss": "dev-master"
     }
 }
 ```
@@ -20,7 +20,7 @@ composer update
 ```
 或者：
 ```$xslt
-composer require "lincoo/Aliyun-OSS"
+composer require "lincoo/aliyun_oss"
 ```
 3、修改config/app.php，在providers数组下加入:
 ```$xslt
