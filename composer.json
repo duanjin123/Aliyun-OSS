@@ -1,5 +1,5 @@
 {
-    "name": "lincoo/Aliyun-OSS",
+    "name": "lincoo/aliyun_oss",
     "description": "阿里云oss存储第三方服务",
     "type": "library",
     "require": {
@@ -14,12 +14,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lincoo\\AliyunOSS\\": "src/"
+            "Lincoo\\aliyun_oss\\": "src/"
         }
     },
     "autoload-dev": {
          "psr-4": {
-            "Lincoo\\AliyunOSS\\Tests\\": "tests/"
+            "Lincoo\\aliyun_oss\\Tests\\": "tests/"
          }
     },
     "minimum-stability": "dev"
