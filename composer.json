@@ -1,0 +1,26 @@
+{
+    "name": "lincoo/Aliyun-OSS",
+    "description": "阿里云oss存储第三方服务",
+    "type": "library",
+    "require": {
+        "aliyuncs/oss-sdk-php": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lincoo",
+            "email": "duan.jin@mydreamplus.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lincoo\\AliyunOSS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+         "psr-4": {
+            "Lincoo\\AliyunOSS\\Tests\\": "tests/"
+         }
+    },
+    "minimum-stability": "dev"
+}
